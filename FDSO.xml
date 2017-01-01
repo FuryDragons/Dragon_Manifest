@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Fury Dragons ROM -->
+
+    <!-- Main Repos -->
+
+  <project path="build/make" name="LineageOS/android_build" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="DragonManifest" name="FuryDragons/Dragon_Manifest" revision="FDS-O" />
+  <project path="frameworks/base" name="FuryDragons/frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="FDS-O" />
+  <project path="vendor/furydragons" name="FuryDragons/vendor_furydragons" revision="FDS-O" />
+  
+  <!-- Packages -->
+
+  <project path="packages/apps/FuryDragonsFileManager" name="FuryDragons/packages_apps_FuryDragonsFileManager" groups="pdk-fs" revision="FDS-O" />
+  <project path="packages/apps/DragonFileManager" name="FuryDragons/packages_apps_DragonFileManager" groups="pdk-fs" revision="FDS-O" />
+  <project path="packages/apps/DragonSetupWizard" name="FuryDragons/packages_apps_DragonSetupWizard" groups="pdk-fs" revision="FDS-O" />
+  <project path="packages/apps/DragonWallpapers" name="FuryDragons/packages_apps_DragonWallpapers" groups="pdk-fs" revision="FDS-O" />
+  <project path="packages/apps/Settings" name="FuryDragons/packages_apps_Settings" groups="pdk-fs" revision="FDS-O" />
+<!-- Fury Dragons ROM -->
+ 
+</manifest>
