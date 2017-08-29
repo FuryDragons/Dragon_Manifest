@@ -16,7 +16,6 @@
 
   <project path="packages/apps/CMParts" name="FuryDragons/packages_apps_CMParts" revision="FDS-N" />
   <project path="packages/apps/FuryDragonsWallpapers" name="FuryDragons/packages_apps_FuryDragonsWallpapers" groups="pdk-fs" revision="FDS-N" />
-  <project path="packages/apps/FuryDragonsSetupWizard" name="FuryDragons/packages_apps_FuryDragonsSetupWizard" groups="pdk-fs" revision="FDS-N" />
   <project path="packages/apps/Settings" name="FuryDragons/packages_apps_Settings" groups="pdk-fs" revision="FDS-N" />
   <project path="packages/apps/FuryDragonsFileManager" name="FuryDragons/packages_apps_FuryDragonsFileManager" groups="pdk-fs" revision="FDS-N" />
   
