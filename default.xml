@@ -9,7 +9,7 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="furydragons"
-           fetch="https://github.com/FuryDragons"
+           fetch="https://github.com"
            revision="FDS-N" />
 
   <remote  name="aosp"

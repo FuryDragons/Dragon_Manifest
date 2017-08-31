@@ -40,11 +40,9 @@
   <project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
-  <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
   <project path="packages/apps/ThemeChooser" name="LineageOS/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
   <project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />
   <project path="packages/providers/ThemesProvider" name="LineageOS/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
@@ -112,19 +110,4 @@
   <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />
 
-  <!-- Infrastructure -->
-  <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
-  <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
-  <project path="lineage/cve" name="LineageOS/cve_tracker" groups="infra" revision="master" />
-  <project path="lineage/jenkins" name="LineageOS/hudson" groups="infra" revision="master" />
-  <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
-  <project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
-  <project path="lineage/stats" name="LineageOS/tribble-tracker" groups="infra" revision="master" />
-  <project path="lineage/updater" name="LineageOS/lineageos_updater" groups="infra" revision="master" />
-  <project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
-  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
-
-  <!-- Tools -->
-  <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
-  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
 </manifest>
